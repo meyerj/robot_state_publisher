@@ -1,6 +1,6 @@
 <package>
   <name>robot_state_publisher</name>
-  <version>1.11.1</version>
+  <version>1.12.1</version>
   <description>
     This package allows you to publish the state of a robot to
     <a href="http://ros.org/wiki/tf">tf</a>. Once the state gets published, it is
@@ -45,8 +45,6 @@
   <run_depend>tf</run_depend>
   <run_depend>tf2_ros</run_depend>
   <run_depend>tf2_kdl</run_depend>
-  <run_depend>tf_conversions</run_depend>
 
   <build_depend>rostest</build_depend>
-
 </package>
